@@ -28,6 +28,38 @@ h1 {
 h2 {
   font-size: 60px;
 }
+.brand {
+  font-size: 58px;
+  font-family: "Monoton", cursive;
+  color: #040319;
+  max-height: 40px;
+
+  margin-top: 25px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 80px;
+  padding-left: 15px;
+}
+
+nav a :hover,
+nav li.active a {
+  color: var(--branding-color);
+}
 
 .hero {
   background: var(--secondary-color);
@@ -119,5 +151,8 @@ h2 {
   .about-section {
     text-align: center;
     padding: 0;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
