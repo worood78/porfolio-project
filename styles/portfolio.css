@@ -4,6 +4,7 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
+
 body {
   font-family: var(--default-font-family);
 }
@@ -16,11 +17,6 @@ h5 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
-p {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-}
 h1 {
   font-size: 96px;
   line-height: 1.5;
@@ -28,37 +24,61 @@ h1 {
 h2 {
   font-size: 60px;
 }
-.brand {
-  font-size: 58px;
-  font-family: "Monoton", cursive;
-  color: #040319;
-  max-height: 40px;
-
-  margin-top: 25px;
+h4 {
+  font-size: 48px;
 }
-nav {
-  padding: 20px 0;
+p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
 }
-nav ul {
-  padding: 0;
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
   margin: 0;
 }
-nav a {
+footer .email-link {
   text-decoration: none;
-
-  color: #272142;
+  color: black;
+  font-size: 24px;
+  margin-top: 20px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
   transition: all 100ms ease-in-out;
 }
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 80px;
-  padding-left: 15px;
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
 
-nav a :hover,
-nav li.active a {
-  color: var(--branding-color);
+.nav {
+  padding: 20px 0;
+}
+
+.brand {
+  font-size: 42px;
+  font-family: "Monoton", cursive;
+  color: #060522;
+  max-height: -15px;
+}
+.nav-item {
+  padding: 0 10px;
+  line-height: 14px;
 }
 
 .hero {
@@ -87,7 +107,7 @@ nav li.active a {
   font-family: var(--default-font-family);
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 .content h3 {
   font-size: 24px;
@@ -116,23 +136,31 @@ nav li.active a {
   padding: 15px 30px;
 }
 .project-discription {
-  padding-top: 100px;
+  padding-top: 20px;
   padding-right: 25px;
 }
 .project-discription h2 {
   font-size: 50px;
 }
 .container {
-  max-width: 1000px;
+  max-width: 1250px;
 }
-
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
     line-height: 56px;
   }
   h2 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  nav1 a {
+    font-size: 14px;
+  }
+  .brand {
+    margin-left: 15px;
   }
   .hero {
     padding: 80px 20px;
@@ -141,8 +169,18 @@ nav li.active a {
     font-size: 20px;
     font-weight: bold;
   }
+
+  .container {
+    text-align: center;
+    margin-top: 0;
+  }
   .project-discription h2 {
     font-size: 42px;
+    margin-top: 0;
+  }
+
+  .content h1 {
+    font-size: 40px;
   }
   .content {
     padding: 0;
@@ -151,8 +189,5 @@ nav li.active a {
   .about-section {
     text-align: center;
     padding: 0;
-  }
-  nav a {
-    font-size: 14px;
   }
 }
