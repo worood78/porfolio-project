@@ -16,13 +16,7 @@ h4 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
-h1 {
-  font-size: 96px;
-  line-height: 1.5;
-}
-h2 {
-  font-size: 60px;
-}
+
 h3 {
   font-size: 48px;
 }
@@ -107,12 +101,14 @@ footer p {
 }
 .hero h1 {
   color: var(--third-color);
+  font-size: 96px;
+  line-height: 1.5;
 }
 .hero h2 {
   font-family: var(--default-font-family);
   color: var(--third-color);
   font-weight: normal;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 1.5;
 }
 .hero p {
@@ -122,15 +118,13 @@ footer p {
   color: white;
 }
 
-/* container1,2,3 section*/
-.container1,
-.container2,
-.container3 {
+/* container section*/
+.container {
   padding: 50px 60px;
 }
 /* about-page*/
 .about-page {
-  padding: 20px 60px;
+  padding: 20px 45px;
 }
 .about-page h1 {
   font-size: 55px;
@@ -138,7 +132,7 @@ footer p {
   color: var(--secondary-color);
 }
 .about-page h2 {
-  font-size: 18px;
+  font-size: 17px;
   color: var(--secondary-color);
   font-family: var(--default-font-family);
 }
@@ -150,10 +144,9 @@ footer p {
   padding: 20px 60px;
 }
 .work-page h1 {
-  font-size: 55px;
+  font-size: 50px;
   line-height: 80px;
   color: var(--secondary-color);
-  text-align: center;
 }
 .work-page h2 {
   font-size: 18px;
@@ -178,7 +171,7 @@ footer p {
 
 /* project dicription section*/
 .project-discription {
-  padding-top: 80px;
+  padding-top: 30px;
   padding-right: 25px;
 }
 .project-discription h2 {
@@ -246,7 +239,19 @@ footer p {
   h3 {
     font-size: 18px;
   }
-
+  h4 {
+    font-size: 16px;
+  }
+  footer .email-link {
+    font-size: 16px;
+  }
+  footer p {
+    font-size: 10px;
+  }
+  .container {
+    text-align: center;
+    padding: 0;
+  }
   .brand {
     font-size: 25px;
   }
@@ -261,13 +266,37 @@ footer p {
     text-align: center;
     padding: 0;
   }
-  .project-discription {
+  .about-page h1 {
+    font-size: 35px;
+  }
+  .about-page h2 {
+    font-size: 18px;
+  }
+  .work-page {
+    text-align: center;
+    padding: 20px 20px;
+  }
+  .work-page h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .project-discription h2 {
+    font-size: 20px;
+  }
+
+  .contact-page h1 {
+    font-size: 28px;
+    margin-top: 5px;
+  }
+  .contact-page {
     text-align: center;
     padding: 0;
   }
 
-  .contact-page {
-    text-align: center;
-    padding: 0;
+  .contact-page a {
+    font-size: 10px;
   }
 }
