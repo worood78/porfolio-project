@@ -229,21 +229,11 @@ footer p {
 }
 
 @media (max-width: 900px) {
-  h1 {
-    font-size: 44px;
-    line-height: 56px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-  h3 {
-    font-size: 18px;
-  }
   h4 {
     font-size: 16px;
   }
   footer .email-link {
-    font-size: 16px;
+    font-size: 13px;
   }
   footer p {
     font-size: 10px;
@@ -258,9 +248,17 @@ footer p {
   .hero {
     padding: 80px 20px;
   }
-  .hero h2 {
-    font-size: 20px;
+  .hero h1 {
+    font-size: 40px;
     font-weight: bold;
+  }
+  .hero h2 {
+    font-size: 16px;
+  }
+  .btn-branding {
+    font-size: 11px;
+    line-height: 24px;
+    padding: 12px 27px;
   }
   .about-page {
     text-align: center;
